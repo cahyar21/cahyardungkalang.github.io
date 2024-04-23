@@ -375,7 +375,7 @@ header .container .menu-icon i{
   
   /* start services */
 
-  .services .content{
+  .article .content{
     margin: 40px 0;
     display: flex;
     flex-wrap: wrap;
@@ -384,14 +384,14 @@ header .container .menu-icon i{
     gap: 20px;
   }
   @media (max-width:767px) {
-    .services .content{
+    .article .content{
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
     
   }
-  .services .content .box{
+  .article .content .box{
     flex: 1 1 13rem;
     display: flex;
     flex-direction: column; 
@@ -402,38 +402,37 @@ header .container .menu-icon i{
      border-radius:20px;
      transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
   }
-  .services .content .box:hover {
+  .article .content .box:hover {
     transform: scale(1.05);
     transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   @media (max-width:500px) {
-    .services .content .box{
+    .article .content .box{
       max-width: 80%;
     }
     
   }
- 
-  .services .content .box .head i{
+  .article .content .box .head i{
     color: var(--main-color);
     font-size: 20px;
   }
-  .services .content .box h2{
+  .article .content .box h2{
    color: var(--main-color);
    padding: 10px 0;
    font-size: 20px;
    font-weight: 500;
   }
-  .services .content .box p{
+  .article .content .box p{
     text-align: center;
     font-size: 16px;
   }
   /* end services */
 
     /* start gallery */
-    .Gallery{
+    .gallery{
   
     }
-    .Gallery .content{
+    .gallery .content{
       margin: 50px 0;
       display: flex;
       flex-wrap: wrap;
@@ -443,27 +442,27 @@ header .container .menu-icon i{
       
     }
     @media (max-width:767px) {
-      .Gallery .content{
+      .gallery .content{
         flex-direction: column;
         text-align: center;
         justify-content: center;
       }
       
     }
-    .Gallery .content .box{
+    .gallery .content .box{
       position: relative;
       max-width: 90%;
       height: 320px;
       border-radius: 20px;
       overflow: hidden;
     }
-    .Gallery .content .box .img{
+    .gallery .content .box .img{
       width: 100%;
       height: 100%;
       object-fit: cover;
       object-position: center;
     }
-    .Gallery .content .box .overlay{
+    .gallery .content .box .overlay{
       position:absolute;
       top: -100%;
       left: 0;
@@ -476,23 +475,23 @@ header .container .menu-icon i{
       background-color: hsl(234, 45%, 16%,0.7);
     
     }
-    .Gallery .content .box .overlay h2{
+    .gallery .content .box .overlay h2{
      font-size: 25px;
      font-weight: 600;
      margin-bottom: 10px;
     }
-    .Gallery .content .box .overlay i{
+    .gallery .content .box .overlay i{
       font-size: 24px;
       padding: 10px;
       background-color: var(--main-color);
       color: var(--bg-color);
       border-radius: 5px;
     }
-    .Gallery .content .box .overlay i:hover{
+    .gallery .content .box .overlay i:hover{
       background-color: #546eff; 
       transition:0.5s  all  linear;
     }
-    .Gallery .content .box:hover .overlay{
+    .gallery .content .box:hover .overlay{
       top: 0;
       transition:  0.3s all ease 0s;
     }
