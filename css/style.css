@@ -428,11 +428,16 @@ header .container .menu-icon i{
   }
   /* end services */
 
-    /* start gallery */
-    .gallery{
-  
-    }
+    /* start gallery */ 
+    .gallery {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+
     .gallery .content{
+      
       margin: 50px 0;
       display: flex;
       flex-wrap: wrap;
@@ -498,9 +503,7 @@ header .container .menu-icon i{
       /* end Gallery  */
 
     /* start contact  */
-    .contact{
-  
-    }
+    
     .contact form{
       max-width: 600px;
       margin: auto;
@@ -534,113 +537,3 @@ header .container .menu-icon i{
        transition: 0.3s all linear;
     }
     /* end contact */
-    /* start footer  */
-    footer{
-  
-    }
-   footer .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 30px 0;
-   }
-   footer  .social{
-      display: flex;
-      align-items: center;
-      column-gap: 10px;
-  }
-  footer  .social a{
-    font-size: 16px;
-    color: var(--bg-color);
-  }
-  footer  .links{
-    display: flex;
-    align-items: center;
-    column-gap: 16px;
-  }
-  footer  .links a{
-    color: var(--bg-color);
-  }
-  footer  .links a:hover{
-    color: var(--main-color);
-  }
-  footer .copyright{
-    padding-top: 30px;
-    text-align: center;
-  }
-  footer .copyright h2{
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--main-color);
-    margin-bottom: 20px;
-  }
-  footer .copyright h2 span{
-    color: var(--container-color);
-  }
-  
-  footer .social a i{
-      font-size: 22px;
-      padding: 10px;
-      border-radius: 50%;
-      color: var(--bg-color);
-      background-color: var(--container-color);
-  }
-  footer  .social a i:hover{
-    background-color: var(--main-color) ;
-    transition: 0.3s all linear;
-    }
-   /* developper */
-  footer .dev{
-    padding-top: 30px;
-    text-align: right;
-    width: 100%;
-    border-top: 1px solid #818181;
-  }
-  @media (max-width:767px) {
-    
-    footer .dev {
-      text-align: center;
-    }
-  }
-  footer .dev h2{
-    display: inline;
-    font-size: 20px;
-    font-weight: 500;
-    color: #bdb1b1;
-  }
-  footer .dev p{
-    display: inline;
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--bg-color);
-  }
-  footer .dev p span{
-    color: var(--main-color);
-  }
-   /* end footer  */
-   /* scroll top  */
-   .scroll-top{
-     position: fixed;
-     bottom:-100%;
-     right: 16px;
-  
-   }
-   .scroll-top i{
-    padding: 10px;
-    font-size: 20px;
-    color: var(--bg-color);
-    background-color: var(--box-color);
-    border-radius:5px ;
-    }
-    .scroll-top i:hover{
-     background-color: var(--container-color);
-     transition: 0.3s;
-    }
-    .scroll-active{
-      bottom: 30px;
-      transition: 0.3s;
-    }
-   /*==== finnaly it's Done HAHAHAHAHAHHA*/
-   /*==== developed by : Tariq Abala*/
-    /* end footer  */
